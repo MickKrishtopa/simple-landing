@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/autocrm/static/css/main.56720a0a.css",
+    "main.js": "/autocrm/static/js/main.dee5b9e3.js",
+    "static/media/bg.svg": "/autocrm/static/media/bg.a933d472f1695104a6b4.svg",
+    "static/media/logo_welbex.svg": "/autocrm/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/autocrm/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/autocrm/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "static/media/red_ball_small.svg": "/autocrm/static/media/red_ball_small.e0cfd585b5aa004e7899.svg",
+    "static/media/purple_ball.svg": "/autocrm/static/media/purple_ball.5183c75bdfdc477e9148.svg",
+    "static/media/red_ball.svg": "/autocrm/static/media/red_ball.d0944b6e50e80d4994d4.svg",
+    "index.html": "/autocrm/index.html",
+    "static/media/red_light.svg": "/autocrm/static/media/red_light.7344046bcb6ed0e423a6.svg",
+    "static/media/purple_light.svg": "/autocrm/static/media/purple_light.f56cd3688ba443c66ab7.svg",
+    "static/media/telegram.svg": "/autocrm/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.56720a0a.css.map": "/autocrm/static/css/main.56720a0a.css.map",
+    "main.dee5b9e3.js.map": "/autocrm/static/js/main.dee5b9e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56720a0a.css",
+    "static/js/main.dee5b9e3.js"
+  ]
+}
