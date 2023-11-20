@@ -1,0 +1,154 @@
+@import '../../styles/abstract/mixins.scss';
+
+.promo {
+    max-width: 1140px;
+    margin: 90px auto 0;
+    color: #e4e5ea;
+    display: flex;
+    justify-content: space-between;
+
+    &__left-container {
+        max-width: 362px;
+        text-align: start;
+        h1 {
+            @include text(48px, 400, 1.22);
+            @include media(700px) {
+                font-size: 36px;
+            }
+        }
+        span {
+            font-weight: 900;
+            background-color: #fcb045;
+            background-image: linear-gradient(90deg, #fcb045, #ff3f78);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            @include text(18px, 400, 1.22, 'Montserrat');
+            margin-top: 30px;
+            @include media(700px) {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    &__right-container_desktop {
+        max-width: 300px;
+        text-align: end;
+        margin-top: 15px;
+        h2 {
+            @include text(18px, 500, 1.21);
+            letter-spacing: 0.5px;
+        }
+        span {
+            font-weight: 700;
+            background-color: #fcb045;
+            background-image: linear-gradient(
+                90deg,
+                #fcb045 36.99%,
+                #fd1d1d 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 40px 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            row-gap: 30px;
+
+            li {
+                width: 135px;
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+
+                h3 {
+                    @include text(18px, 500, 1.22);
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                }
+                p {
+                    @include text(16px, 400, 1.22, 'Montserrat');
+                }
+            }
+        }
+
+        button {
+            @include size(262px, 61px);
+            @include hover;
+            @include text(16px, 500);
+            margin: 61px 0 0;
+            padding: 0;
+            border: none;
+            background-color: #4077f3;
+            color: white;
+        }
+
+        @include media(700px) {
+            display: none;
+        }
+    }
+
+    &__right-container_mobile {
+        display: none;
+        max-width: 306px;
+        text-align: start;
+        margin-top: 45px;
+
+        h2 {
+            @include text(18px, 500, 1.21);
+            text-align: start;
+        }
+        span {
+            font-weight: 700;
+            background-color: #fcb045;
+            background-image: linear-gradient(90deg, #fcb045, #fd1d1d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: lowercase;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 59px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            row-gap: 14px;
+
+            li {
+                min-width: 114px;
+                p {
+                    @include text(13px, 400, 1.22);
+                    letter-spacing: 0.65px;
+                    text-transform: uppercase;
+                }
+                span {
+                    margin-right: 5px;
+                    background-image: linear-gradient(90deg, #fcb045, #fd1d1d);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+
+        @include media(700px) {
+            display: block;
+        }
+    }
+
+    @include media(700px) {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background: url('../../images/bg.svg');
+        background-size: cover;
+
+        padding: 40px 0 0 14px;
+    }
+}

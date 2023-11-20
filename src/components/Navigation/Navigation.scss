@@ -1,0 +1,36 @@
+@import '../../styles/abstract/mixins.scss';
+.navigation {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 15px 0 0;
+        display: flex;
+        align-items: center;
+        color: #e4e5ea;
+        :last-child {
+            margin: 0;
+        }
+        @include media(700px) {
+            margin: 0;
+            :nth-child(4) {
+                margin: 0;
+            }
+        }
+    }
+
+    &__item {
+        @include text(16px, 500, 1.21);
+        @include hover;
+        margin-right: 30px;
+        &_hidden {
+            @include media(700px) {
+                display: none;
+            }
+        }
+        @include media(700px) {
+            @include text(12px);
+            margin-right: 16px;
+            text-transform: uppercase;
+        }
+    }
+}

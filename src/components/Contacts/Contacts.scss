@@ -1,0 +1,24 @@
+@import '../../styles/abstract/mixins.scss';
+
+.contacts {
+    display: flex;
+    gap: 47px;
+    color: #e4e5ea;
+    margin: 15px 0 0 140px;
+    span {
+        @include text(16px, 500, 1.21);
+        width: 143px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 30px;
+    }
+
+    @include media(1200px) {
+        display: none;
+    }
+}

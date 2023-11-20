@@ -1,0 +1,48 @@
+@import './abstract/mixins.scss';
+body {
+    margin: 0;
+    // padding: 0 10px;
+    font-family:
+        'Inter',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        'Roboto',
+        'Oxygen',
+        'Ubuntu',
+        'Cantarell',
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 1440px;
+    margin: 0 auto;
+    // background-color:;
+    background:
+        url('../images/purple_light.svg'),
+        url('../images/red_light.svg'),
+        url('../images/purple_ball.svg'),
+        url('../images/red_ball.svg'),
+        url('../images/red_ball_small.svg') #0e1014;
+    background-repeat: no-repeat;
+    background-position:
+        top,
+        left,
+        left 62% top 0px,
+        left 39% top 72px,
+        left 60% top 542px;
+
+    @media screen and (min-width: 701px) and (max-width: 1200px) {
+        margin: 0 20px;
+    }
+    @include media(700px) {
+        background: #0e1014;
+    }
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

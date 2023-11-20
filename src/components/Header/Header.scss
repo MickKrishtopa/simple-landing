@@ -1,0 +1,39 @@
+@import '../../styles/abstract/mixins.scss';
+
+.header {
+    max-width: 1140px;
+    margin: 46px auto 0;
+    min-height: 73px;
+    display: flex;
+    // justify-content: space-between;
+
+    &__logo-area {
+        width: 140px;
+        margin-right: 52px;
+
+        img {
+            @include size(140px, 24px);
+            margin: 11px auto 10px 0;
+            align-self: flex-start;
+        }
+
+        p {
+            @include text(10px, 300, 1.22, 'Montserrat');
+
+            color: #e4e5ea;
+            text-align: start;
+        }
+
+        @include media(700px) {
+            display: none;
+        }
+    }
+
+    @include media(1200px) {
+        justify-content: space-around;
+    }
+    @include media(700px) {
+        margin: 21px 16px;
+        min-height: 15px;
+    }
+}

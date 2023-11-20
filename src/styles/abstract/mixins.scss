@@ -1,0 +1,35 @@
+@mixin text(
+    $font-size: 16px,
+    $font-weight: 400,
+    $line-heigth: 1.21,
+    $font-family: 'Inter'
+) {
+    margin: 0;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-heigth;
+    font-family:
+        $font-family,
+        -apple-system,
+        sans-serif;
+}
+
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin hover() {
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+@mixin media($max-width) {
+    @media (max-width: $max-width) {
+        @content;
+    }
+}
