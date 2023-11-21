@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/simple-landing/static/css/main.ed609d20.css",
-    "main.js": "/simple-landing/static/js/main.6ad692f4.js",
-    "static/media/bg.svg": "/simple-landing/static/media/bg.a933d472f1695104a6b4.svg",
-    "static/media/logo_welbex.svg": "/simple-landing/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
-    "static/media/whatsapp.svg": "/simple-landing/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
-    "static/media/viber.svg": "/simple-landing/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
-    "static/media/red_ball_small.svg": "/simple-landing/static/media/red_ball_small.e0cfd585b5aa004e7899.svg",
-    "static/media/purple_ball.svg": "/simple-landing/static/media/purple_ball.5183c75bdfdc477e9148.svg",
-    "static/media/red_ball.svg": "/simple-landing/static/media/red_ball.d0944b6e50e80d4994d4.svg",
-    "index.html": "/simple-landing/index.html",
-    "static/media/red_light.svg": "/simple-landing/static/media/red_light.7344046bcb6ed0e423a6.svg",
-    "static/media/purple_light.svg": "/simple-landing/static/media/purple_light.f56cd3688ba443c66ab7.svg",
-    "static/media/telegram.svg": "/simple-landing/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
-    "main.ed609d20.css.map": "/simple-landing/static/css/main.ed609d20.css.map",
-    "main.6ad692f4.js.map": "/simple-landing/static/js/main.6ad692f4.js.map"
+    "main.css": "/weblex/static/css/main.f93950cd.css",
+    "main.js": "/weblex/static/js/main.5f5bbf0e.js",
+    "static/media/bg.svg": "/weblex/static/media/bg.a933d472f1695104a6b4.svg",
+    "static/media/logo_welbex.svg": "/weblex/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/weblex/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/weblex/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "static/media/red_ball_small.svg": "/weblex/static/media/red_ball_small.e0cfd585b5aa004e7899.svg",
+    "static/media/purple_ball.svg": "/weblex/static/media/purple_ball.5183c75bdfdc477e9148.svg",
+    "static/media/red_ball.svg": "/weblex/static/media/red_ball.d0944b6e50e80d4994d4.svg",
+    "index.html": "/weblex/index.html",
+    "static/media/red_light.svg": "/weblex/static/media/red_light.7344046bcb6ed0e423a6.svg",
+    "static/media/purple_light.svg": "/weblex/static/media/purple_light.f56cd3688ba443c66ab7.svg",
+    "static/media/telegram.svg": "/weblex/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.f93950cd.css.map": "/weblex/static/css/main.f93950cd.css.map",
+    "main.5f5bbf0e.js.map": "/weblex/static/js/main.5f5bbf0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed609d20.css",
-    "static/js/main.6ad692f4.js"
+    "static/css/main.f93950cd.css",
+    "static/js/main.5f5bbf0e.js"
   ]
 }
