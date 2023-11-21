@@ -89,7 +89,7 @@
             color: white;
         }
 
-        @include media(700px) {
+        @include media(730px) {
             display: none;
         }
     }
@@ -137,7 +137,7 @@
             }
         }
 
-        @include media(700px) {
+        @include media(730px) {
             display: block;
         }
     }

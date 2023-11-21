@@ -18,7 +18,33 @@
         gap: 30px;
     }
 
+    p {
+        @include text(16px, 400);
+        @include media(1000px) {
+            font-size: 14px;
+        }
+    }
+
     @include media(1200px) {
         display: none;
+    }
+
+    &_type_footer {
+        flex-direction: column;
+        gap: 23px;
+        margin: 0;
+        align-items: end;
+
+        ul {
+            gap: 10px;
+        }
+
+        @include media(1200px) {
+            display: flex;
+        }
+        @include media(1000px) {
+            align-items: start;
+            gap: 10px;
+        }
     }
 }

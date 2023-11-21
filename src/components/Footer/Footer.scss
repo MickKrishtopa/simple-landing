@@ -1,0 +1,125 @@
+@import '../../styles/abstract/mixins.scss';
+
+.footer {
+    &__top-container {
+        display: flex;
+        padding: 55px 0 0;
+        margin: 69px auto 33px;
+        max-width: 1141px;
+
+        @include media(1000px) {
+            flex-direction: column;
+            margin: 0 0 0 16px;
+            gap: 30px;
+        }
+    }
+
+    &__subtitle {
+        @include text(14px, 700);
+        color: #656566;
+        letter-spacing: 0.6px;
+        margin: 0 0 20px;
+
+        @include media(1000px) {
+            font-size: 12px;
+        }
+    }
+
+    &__link-item {
+        @include text(16px, 400);
+        @include hover;
+        color: #e4e5ea;
+        margin: 0 0 10px;
+        @include media(1000px) {
+            font-size: 14px;
+        }
+    }
+
+    &__about {
+        width: 196px;
+        margin-right: 98px;
+    }
+
+    &__menu {
+        max-width: 408px;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            grid-template-columns: 144px 212px;
+            gap: 10px 52px;
+
+            @include media(1000px) {
+                grid-template-columns: 100px 123px;
+                gap: 10px 48px;
+
+                li {
+                    &:nth-child(1) {
+                        order: 1;
+                    }
+                    &:nth-child(2) {
+                        order: 4;
+                    }
+                    &:nth-child(3) {
+                        order: 3;
+                    }
+                    &:nth-child(4) {
+                        order: 2;
+                    }
+                    &:nth-child(5) {
+                        order: 5;
+                    }
+                    &:nth-child(6) {
+                        order: 6;
+                    }
+                    &:nth-child(7) {
+                        order: 7;
+                    }
+                    &:nth-child(8) {
+                        order: 8;
+                    }
+                    &:nth-child(9) {
+                        order: 9;
+                    }
+                    &:nth-child(10) {
+                        order: 10;
+                    }
+                }
+            }
+        }
+    }
+
+    &__contacts {
+        width: 278px;
+        margin: 0 0 0 163px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+        @include media(1000px) {
+            margin: 0;
+            align-items: start;
+        }
+    }
+
+    &__copyright {
+        @include text(12px, 400, 1.22, 'Montserrat');
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+        color: #e4e5ea;
+        max-width: 1140px;
+        margin: 0 auto 20px;
+        p {
+            @include hover;
+            margin: 0;
+        }
+
+        @include media(1000px) {
+            margin: 50px 0 60px 15px;
+            align-items: start;
+        }
+    }
+}

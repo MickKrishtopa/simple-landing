@@ -19,6 +19,7 @@ export const Contacts = ({ usedFor = 'header' }) => {
                     <img src={whatsapIcon} alt="Иконка ватсапа" />
                 </li>
             </ul>
+            {usedFor === 'footer' && <p>Москва, Путевой проезд 3с1, к 902</p>}
         </div>
     );
 };
